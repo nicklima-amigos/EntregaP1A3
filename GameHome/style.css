@@ -1,0 +1,335 @@
+.game-plataform {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.game-plataform .home-wrapper {
+  overflow-x: hidden;
+  width: 1920px;
+  height: 1080px;
+}
+
+.game-plataform .home {
+  width: 1938px;
+  height: 1080px;
+}
+
+.game-plataform .overlap-group {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+}
+
+.game-plataform .background-home {
+  position: absolute;
+  width: 1920px;
+  height: 1066px;
+  top: 14px;
+  left: 0;
+  background-color: var(--monolight);
+  border-radius: 14px;
+  box-shadow: 0px 0px 10px #2222224c;
+}
+
+.game-plataform .header-home {
+  position: absolute;
+  width: 515px;
+  height: 266px;
+  top: 679px;
+  left: 1306px;
+}
+
+.game-plataform .img {
+  position: absolute;
+  width: 1920px;
+  height: 178px;
+  top: 0;
+  left: 0;
+}
+
+.game-plataform .login {
+  width: 151px;
+  top: 970px;
+  left: 223px;
+  color: #000000;
+  font-size: 24px;
+  position: absolute;
+  height: 43px;
+  font-family: "Ubuntu", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.game-plataform .text-wrapper {
+  width: 230px;
+  top: 970px;
+  left: 817px;
+  color: #000000;
+  font-size: 24px;
+  position: absolute;
+  height: 43px;
+  font-family: "Ubuntu", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.game-plataform .div {
+  width: 320px;
+  top: 970px;
+  left: 1416px;
+  color: #000000;
+  font-size: 24px;
+  position: absolute;
+  height: 43px;
+  font-family: "Ubuntu", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.game-plataform .login-2 {
+  width: 327px;
+  top: 618px;
+  left: 134px;
+  color: #000000;
+  font-size: 24px;
+  position: absolute;
+  height: 43px;
+  font-family: "Ubuntu", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.game-plataform .login-3 {
+  width: 125px;
+  top: 609px;
+  left: 868px;
+  color: #000000;
+  font-size: 24px;
+  position: absolute;
+  height: 43px;
+  font-family: "Ubuntu", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.game-plataform .login-4 {
+  width: 223px;
+  top: 592px;
+  left: 1453px;
+  color: #000000;
+  font-size: 24px;
+  position: absolute;
+  height: 43px;
+  font-family: "Ubuntu", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.game-plataform .login-5 {
+  width: 409px;
+  top: 66px;
+  left: 34px;
+  color: #f5d499;
+  font-size: 48px;
+  position: absolute;
+  height: 43px;
+  font-family: "Ubuntu", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.game-plataform .login-6 {
+  width: 85px;
+  top: 217px;
+  left: 931px;
+  color: #000000;
+  font-size: 24px;
+  position: absolute;
+  height: 43px;
+  font-family: "Ubuntu", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.game-plataform .frame {
+  width: 272px;
+  left: 616px;
+  display: flex;
+  height: 79.93px;
+  align-items: center;
+  justify-content: center;
+  gap: 128px;
+  padding: 16px 0px;
+  position: absolute;
+  top: 41px;
+  background-color: #f5d499;
+  border-radius: 4px;
+}
+
+.game-plataform .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Ubuntu", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.game-plataform .div-wrapper {
+  width: 241px;
+  left: 1409px;
+  display: flex;
+  height: 79.93px;
+  align-items: center;
+  justify-content: center;
+  gap: 128px;
+  padding: 16px 0px;
+  position: absolute;
+  top: 41px;
+  background-color: #f5d499;
+  border-radius: 4px;
+}
+
+.game-plataform .frame-2 {
+  display: flex;
+  width: 241px;
+  height: 79.93px;
+  align-items: center;
+  justify-content: center;
+  gap: 128px;
+  padding: 16px 0px;
+  position: absolute;
+  top: 41px;
+  left: 1028px;
+  background-color: #f5d499;
+  border-radius: 4px;
+}
+
+.game-plataform .rectangle {
+  position: absolute;
+  width: 447px;
+  height: 82px;
+  top: 197px;
+  left: 149px;
+  background-color: #d9d9d9;
+  border-radius: 40px;
+}
+
+.game-plataform .text-wrapper-3 {
+  position: absolute;
+  width: 241px;
+  height: 28px;
+  top: 220px;
+  left: 272px;
+  font-family: "Ubuntu", Helvetica;
+  font-weight: 400;
+  color: #00000099;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.game-plataform .image {
+  width: 50px;
+  height: 48px;
+  top: 211px;
+  left: 171px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.game-plataform .image-2 {
+  width: 97px;
+  height: 75px;
+  top: 197px;
+  left: 791px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.game-plataform .image-3 {
+  width: 443px;
+  height: 247px;
+  top: 355px;
+  left: 77px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.game-plataform .image-4 {
+  width: 285px;
+  height: 297px;
+  top: 272px;
+  left: 1431px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.game-plataform .pngwing {
+  position: absolute;
+  width: 386px;
+  height: 268px;
+  top: 334px;
+  left: 737px;
+  object-fit: cover;
+}
+
+.game-plataform .image-5 {
+  width: 213px;
+  height: 234px;
+  top: 695px;
+  left: 828px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.game-plataform .image-6 {
+  width: 370px;
+  height: 298px;
+  top: 647px;
+  left: 114px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.game-plataform .image-7 {
+  width: 522px;
+  height: 266px;
+  top: 679px;
+  left: 1306px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.game-plataform .image-8 {
+  width: 64px;
+  height: 62px;
+  top: 204px;
+  left: 57px;
+  position: absolute;
+  object-fit: cover;
+}
