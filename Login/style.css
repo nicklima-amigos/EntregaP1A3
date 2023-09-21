@@ -1,253 +1,82 @@
-.login {
-  background-color: #e5e5e5;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+/* Estilize a área de login */
+.content-wrapper {
   width: 100%;
-}
-
-.login .overlap-group-wrapper {
-  background-color: var(--monobackground);
-  width: 1920px;
-  height: 1080px;
-}
-
-.login .overlap-group {
-  position: relative;
-  height: 1080px;
-  top: -4px;
-  background-color: #ffffff;
-}
-
-.login .frame {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  width: 291px;
-  height: 243px;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-  position: absolute;
-  top: 237px;
-  left: 798px;
 }
 
-.login .icons {
-  position: relative;
-  width: 150px;
-  height: 103px;
-}
-
-.login .img {
-  position: absolute;
-  width: 168px;
-  height: 127px;
-  top: -10px;
-  left: 0;
-}
-
-.login .text-wrapper {
-  position: relative;
-  width: fit-content;
-  font-family: "Ubuntu", Helvetica;
-  font-weight: 500;
-  color: var(--basicorange);
+/* Estilize o título */
+.text-wrapper {
   font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 50px;
-  white-space: nowrap;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
-.login .div {
+.form-wrapper {
+  width: 300px;
+  margin-top: 20px;
+
+  padding: 10px;
+}
+
+.input-frame-wrapper {
+  background-color: #e5e5e5;
+}
+
+.frame-2,
+.frame-3 {
   display: flex;
-  flex-direction: column;
-  width: 444px;
-  height: 433px;
-  align-items: flex-start;
-  gap: 32px;
-  position: absolute;
-  top: 504px;
-  left: 722px;
-}
-
-.login .inputs {
-  height: 60px;
-  gap: 240px;
-  padding: 8px 16px;
-  display: flex;
-  width: 444px;
   align-items: center;
-  justify-content: center;
-  position: relative;
-  background-color: var(--monobackground);
-  border-radius: 4px;
-}
-
-.login .frame-2 {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 229px;
-  position: relative;
-  align-self: stretch;
-  flex: 0 0 auto;
-}
-
-.login .placeholder {
-  width: fit-content;
-  white-space: nowrap;
-  position: relative;
-  font-family: "Ubuntu", Helvetica;
-  font-weight: 400;
-  color: var(--monogray);
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 16px;
-}
-
-.login .icons-2 {
-  position: relative;
-  width: 25px;
-  height: 25px;
-}
-
-.login .frame-wrapper {
-  flex-direction: column;
-  gap: 14px;
-  padding: 8px 25px 8px 0px;
-  flex: 0 0 auto;
-  display: flex;
-  width: 444px;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  background-color: var(--monobackground);
-  border-radius: 4px;
-}
-
-.login .frame-3 {
-  width: 353px;
-  height: 43px;
-  align-items: center;
-  gap: 147px;
-  display: flex;
-  position: relative;
-}
-
-.login .placeholder-2 {
-  width: 196px;
-  position: relative;
-  font-family: "Ubuntu", Helvetica;
-  font-weight: 400;
-  color: var(--monogray);
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 16px;
-}
-
-.login .icons-3 {
-  position: relative;
-  width: 24.5px;
-  height: 25px;
-  margin-right: -14.5px;
-}
-
-.login .div-wrapper {
-  width: 444px;
-  height: 62px;
-  align-items: center;
-  justify-content: center;
-  gap: 170px;
-  padding: 12px 10px;
-  background-color: var(--basicorange);
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Adicione uma borda para destacar os campos de entrada */
   border-radius: 5px;
-  display: flex;
-  position: relative;
+  padding: 5px;
 }
 
-.login .text {
-  position: relative;
-  width: fit-content;
-  font-family: "Ubuntu", Helvetica;
-  font-weight: 400;
-  color: var(--monolight);
-  font-size: 19.6px;
+.placeholder,
+.placeholder-2 {
+  flex: 1;
+  padding: 5px;
+  color: #000;
+}
+
+.icons-2,
+.icons-3 {
+  width: 24px;
+  height: 24px;
+}
+
+.icons-3 {
+  margin-right: 5px;
+}
+
+/* Estilize o botão */
+.button {
   text-align: center;
-  letter-spacing: 0;
-  line-height: 19.6px;
-  white-space: nowrap;
+  margin-top: 20px;
+  background-color: #c94a21; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.login .button {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.login .frame-4 {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 36.79px;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.login .checkbox {
-  position: relative;
-  width: 157.87px;
-  height: 30.65px;
-}
-
-.login .frame-5 {
+/* Estilize o contêiner de "Lembre-me" e "Cadastre-se" */
+.frame-4 {
   display: flex;
-  width: 158px;
+  justify-content: space-between;
   align-items: center;
-  gap: 12.26px;
-  position: relative;
-  top: -4px;
+  margin-top: 20px;
 }
 
-.login .icons-4 {
-  position: relative;
-  width: 38.32px;
-  height: 38.32px;
-}
-
-.login .text-wrapper-2 {
-  position: relative;
-  width: fit-content;
-  margin-right: -4.71px;
-  font-family: "Ubuntu", Helvetica;
-  font-weight: 400;
-  color: var(--basicorange);
-  font-size: 21.5px;
-  letter-spacing: 0;
-  line-height: 30.7px;
-  white-space: nowrap;
-}
-
-.login .frame-6 {
-  flex-direction: column;
-  width: 247px;
-  align-items: flex-end;
-  justify-content: center;
-  gap: 15.33px;
-  display: flex;
-  position: relative;
-}
-
-.login .text-wrapper-3 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1.53px;
-  font-family: "Ubuntu", Helvetica;
-  font-weight: 400;
-  color: var(--basicorange);
-  font-size: 21.5px;
-  text-align: right;
-  letter-spacing: 0;
-  line-height: 30.7px;
-  white-space: nowrap;
+/* Estilize o texto "Cadastre-se" */
+.text-wrapper-3 {
+  color: #c94a21; /* Cor do link de cadastro */
+  text-decoration: underline;
+  cursor: pointer;
 }
