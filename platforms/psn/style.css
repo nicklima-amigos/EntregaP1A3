@@ -58,7 +58,7 @@
   font-size: 24px;
   position: absolute;
   height: 43px;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 500;
   text-align: center;
   letter-spacing: 0;
@@ -73,7 +73,7 @@
   font-size: 24px;
   position: absolute;
   height: 43px;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 500;
   text-align: center;
   letter-spacing: 0;
@@ -88,7 +88,7 @@
   font-size: 24px;
   position: absolute;
   height: 43px;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 500;
   text-align: center;
   letter-spacing: 0;
@@ -103,7 +103,7 @@
   font-size: 24px;
   position: absolute;
   height: 43px;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 500;
   text-align: center;
   letter-spacing: 0;
@@ -118,7 +118,7 @@
   font-size: 24px;
   position: absolute;
   height: 43px;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 500;
   text-align: center;
   letter-spacing: 0;
@@ -133,7 +133,7 @@
   font-size: 24px;
   position: absolute;
   height: 43px;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 500;
   text-align: center;
   letter-spacing: 0;
@@ -145,10 +145,10 @@
   top: 66px;
   left: 34px;
   color: #f5d499;
-  font-size: 48px;
+  font-size: 35px;
   position: absolute;
   height: 43px;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 500;
   text-align: center;
   letter-spacing: 0;
@@ -163,7 +163,7 @@
   font-size: 24px;
   position: absolute;
   height: 43px;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 500;
   text-align: center;
   letter-spacing: 0;
@@ -188,7 +188,7 @@
 .game-plataform .text-wrapper-2 {
   position: relative;
   width: fit-content;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 400;
   color: #000000;
   font-size: 16px;
@@ -230,12 +230,13 @@
 
 .game-plataform .rectangle {
   position: absolute;
-  width: 447px;
-  height: 82px;
+  width: 300px;
+  height: 40px;
   top: 197px;
   left: 149px;
   background-color: #d9d9d9;
   border-radius: 40px;
+  text-align: center;
 }
 
 .game-plataform .text-wrapper-3 {
@@ -244,7 +245,7 @@
   height: 28px;
   top: 220px;
   left: 272px;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 400;
   color: #00000099;
   font-size: 16px;
@@ -326,8 +327,8 @@
 }
 
 .game-plataform .image-8 {
-  width: 64px;
-  height: 62px;
+  width: 32px;
+  height: 31px;
   top: 204px;
   left: 57px;
   position: absolute;
