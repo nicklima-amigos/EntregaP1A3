@@ -1,10 +1,11 @@
-function validateCredentials() {
+function validateCredentials(event) {
+  event.preventDefault();
   console.log('clicked');
-  let email = document.querySelector('#email').value;
-  let password = document.querySelector('#password').value;
+  const email = document.querySelector('#email').value;
+  const password = document.querySelector('#password').value;
 
-  let expectedEmail = 'teste@gmail.com';
-  let expectedPassword = '12345';
+  const expectedEmail = 'teste@gmail.com';
+  const expectedPassword = '12345';
 
   if (email == expectedEmail && password == expectedPassword) {
     alert('Login bem sucedido!');
@@ -15,5 +16,5 @@ function validateCredentials() {
   alert('Email ou senha incorretos. Tente novamente');
 }
 
-const loginButton = document.querySelector('#loginButton');
-loginButton.addEventListener('click', validateCredentials);
+const loginForm = document.querySelector('#loginForm');
+loginForm.addEventListener('submit', validateCredentials);

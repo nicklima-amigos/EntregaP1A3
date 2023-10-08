@@ -3,37 +3,35 @@
 
 <head>
   <link rel="stylesheet" href="../../globals.css" />
-  <link rel="stylesheet" href="styleguide.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <div class="criar-categoria">
-    <div class="overlap-wrapper">
-      <div class="overlap">
-        <div class="cadastro">
-          <div class="overlap-group">
-            <div class="login">Criar Categoria</div>
-          </div>
-          <img class="logo" src="img/logo.png" />
-        </div>
-        <div class="digitar-nome"></div>
-        <div class="botao-criar">
-          <div class="botao-plataforma">
-            <div class="text-wrapper">Criar</div>
-          </div>
-        </div>
-        <div class="titulo">
-          <div class="div">
-            <img class="rectangle" src="img/rectangle-29.svg" />
-            <div class="div-wrapper">
-              <div class="text-wrapper-2">Preço</div>
-            </div>
-          </div>
-        </div>
+  <nav>
+    <div class="title">
+      <div class="back-btn-container">
+        <button class="secondary-btn">Voltar</button>
       </div>
+      <h3>Criar Categoria</h3>
+    </div>
+  </nav>
+  <div class="flex">
+    <div class="col-4 logo-container">
+      <img class="logo" src="img/logo.png" />
+    </div>
+    <div class="col-4">
+      <form action="" id="categoryForm">
+        <div class="container">
+          <div class="input-container">
+            <input type="text" name="name" placeholder="Nome" id="name">
+          </div>
+          <button type="submit" class="main-btn">Criar</button>
+        </div>
+      </form>
     </div>
   </div>
+  <script src="./index.js"></script>
+  <script src="../../globals.js"></script>
 </body>
 
 </html>

@@ -3,58 +3,48 @@
 
 <head>
   <link rel="stylesheet" href="../../globals.css" />
-  <link rel="stylesheet" href="styleguide.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <div class="criar-jogo">
-    <div class="overlap-wrapper">
-      <div class="overlap">
-        <div class="cadastro">
-          <div class="overlap-group">
-            <div class="login">Criar Jogo</div>
-          </div>
-          <img class="logo" src="img/logo.png" />
-        </div>
-        <div class="botao-criar">
-          <div class="botao-plataforma">
-            <div class="text-wrapper">Criar</div>
-          </div>
-        </div>
-        <div class="titulo">
-          <div class="div">
-            <img class="rectangle" src="img/rectangle-29.svg" />
-            <div class="text-wrapper-2">Titulo</div>
-          </div>
-        </div>
-        <div class="genero">
-          <div class="div">
-            <img class="rectangle" src="img/rectangle-29.svg" />
-            <div class="text-wrapper-2">Gênero</div>
-          </div>
-        </div>
-        <div class="preco">
-          <div class="div">
-            <img class="rectangle" src="img/rectangle-29.svg" />
-            <div class="text-wrapper-2">Preço</div>
-          </div>
-        </div>
-        <div class="dev">
-          <div class="div">
-            <img class="rectangle" src="img/rectangle-29.svg" />
-            <div class="text-wrapper-3">Desenvolvedora</div>
-          </div>
-        </div>
-        <div class="data-lancamento">
-          <div class="div">
-            <img class="rectangle" src="img/rectangle-29.svg" />
-            <div class="text-wrapper-4">Data de Lançamento</div>
-          </div>
-        </div>
+  <nav>
+    <div class="title">
+      <div class="back-btn-container">
+        <button class="secondary-btn">Voltar</button>
       </div>
+      <h3>Criar Jogo</h3>
+    </div>
+  </nav>
+  <div class="flex">
+    <div class="col-4 logo-container">
+      <img class="logo" src="img/logo.png" />
+    </div>
+
+    <div class="col-4">
+      <form action="" id="gameForm">
+        <div class="container">
+          <div class="input-container">
+            <input type="text" name="title" id="title" placeholder="Titulo">
+          </div>
+          <div class="input-container">
+            <input type="text" name="genre" id="genre" placeholder="Gênero">
+          </div>
+          <div class="input-container">
+            <input type="text" name="price" id="price" placeholder="Preço">
+          </div>
+          <div class="input-container">
+            <input type="text" name="developedBy" id="developedBy" placeholder="Desenvolvedora">
+          </div>
+          <div class="input-container">
+            <input type="text" name="releaseDate" id="releaseDate" placeholder="Data de Lançamento">
+          </div>
+          <button type="submit" class="main-btn">Criar Jogo</button>
+        </div>
+      </form>
     </div>
   </div>
+  <script src="./index.js"></script>
+  <script src="../../globals.js"></script>
 </body>
 
 </html>

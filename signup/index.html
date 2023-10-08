@@ -3,39 +3,39 @@
 
 <head>
   <link rel="stylesheet" href="../globals.css" />
-  <link rel="stylesheet" href="styleguide.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="cadastrar-conta">
-    <div class="cadastro-wrapper">
-      <div class="cadastro">
-        <div class="overlap-group">
-          <div class="login">Criar conta</div>
-        </div>
-        <div class="confirme-sua-senha">
-          <div class="frame">
-            <input type="password" placeholder="Confirme sua Senha" class="placeholder" id="confirmPassword">
-          </div>
-        </div>
-        <div class="senha">
-          <div class="div">
-            <input type="password" placeholder="Digite sua Senha" class="text-wrapper" id="password">
-          </div>
-        </div>
-        <div class="email">
-          <input type="email" placeholder="Digite seu Email" class="placeholder-2" id="email">
-        </div>
-        <button class="button">
-          <div class="div-wrapper">
-            <div class="text">Cadastrar</div>
-          </div>
-        </button>
-        <img class="logo" src="img/logo.png" />
-      </div>
+  <nav>
+    <h3 class="title">Criar Conta</h3>
+  </nav>
+
+  <div class="flex">
+    <div class="col-4 logo-container">
+
+      <img src="./img/logo.png" alt="" class="logo">
     </div>
-  </div>
+
+    <div class="col-4">
+      <form action="">
+        <div class="container">
+          <div class="input-container">
+            <input type="text" name="username" id="username" placeholder="Nome de usuário">
+          </div>
+          <div class="input-container">
+            <input type="text" name="email" id="email" placeholder="Email">
+          </div>
+          <div class="input-container">
+            <input type="text" name="password" id="password" placeholder="Senha">
+          </div>
+          <div class="input-container">
+            <input type="text" name="confirmPassword" id="confirmPassword" placeholder="Confirmar Senha">
+          </div>
+          <button type="submit" class="main-btn" onclick="createAccountAlert()">Criar Conta</button>
+        </div>
+      </form>
+    </div>
 </body>
 
 </html>
