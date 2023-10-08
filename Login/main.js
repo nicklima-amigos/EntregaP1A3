@@ -14,3 +14,7 @@ function validarEmailSenha(){
         alert("Email ou senha incorretos. Tente novamente")
     }
 }
+
+function redirectCriarConta() {
+    window.location.href = "/CriarConta"
+}
