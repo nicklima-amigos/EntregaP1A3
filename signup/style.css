@@ -35,7 +35,7 @@
   height: 45px;
   top: 71px;
   left: 54px;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 500;
   color: #f5d499;
   font-size: 48px;
@@ -67,7 +67,7 @@
   height: 27px;
   top: 9px;
   left: -66px;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 400;
   color: var(--monogray);
   font-size: 24px;
@@ -108,7 +108,7 @@
   left: 0;
   line-height: 26.1px;
   position: absolute;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 400;
   color: var(--monogray);
   font-size: 24px;
@@ -124,6 +124,17 @@
   height: 26px;
 }
 
+.cadastrar-conta .button {
+  position: absolute;
+  border: none;
+  width: 508px;
+  background-color: white;
+  height: 76px;
+  top: 747px;
+  left: 820px;
+  box-sizing: border-box;
+}
+
 .cadastrar-conta .email {
   position: absolute;
   width: 500px;
@@ -135,12 +146,12 @@
 }
 
 .cadastrar-conta .placeholder-2 {
-  height: 17px;
+  height: 35px;
   top: 24px;
   left: 25px;
   line-height: 16.6px;
   position: absolute;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 400;
   color: var(--monogray);
   font-size: 24px;
@@ -154,16 +165,6 @@
   position: absolute;
   width: 26px;
   height: 26px;
-}
-
-.cadastrar-conta .button {
-  position: absolute;
-  width: 508px;
-  height: 76px;
-  top: 747px;
-  left: 827px;
-  all: unset;
-  box-sizing: border-box;
 }
 
 .cadastrar-conta .div-wrapper {
@@ -183,7 +184,7 @@
   position: relative;
   width: fit-content;
   margin-top: -6.11px;
-  font-family: "Ubuntu", Helvetica;
+  font-family: 'Ubuntu', Helvetica;
   font-weight: 400;
   color: var(--monolight);
   font-size: 26.3px;
