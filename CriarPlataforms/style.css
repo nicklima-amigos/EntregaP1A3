@@ -1,8 +1,8 @@
 .criar-plataforma {
   background-color: transparent;
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -61,34 +61,25 @@
   left: 128px;
 }
 
-.criar-plataforma .botao-criar {
-  position: absolute;
+.criar-plataforma .botao-plataforma {
+  position: relative;
   width: 567px;
   height: 80px;
   top: 591px;
   left: 716px;
-}
-
-.criar-plataforma .botao-plataforma {
-  position: relative;
-  height: 80px;
   background-color: #c94a21;
   border-radius: 7px;
 }
 
 .criar-plataforma .text-wrapper {
-  position: absolute;
-  width: 284px;
-  height: 73px;
-  top: 6px;
-  left: 142px;
   font-family: "Ubuntu", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 40px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 35.9px;
+  line-height: 73px; /* Ajuste a linha de acordo com a altura do elemento */
+  width: 550px;
 }
 
 .criar-plataforma .digitar-nome {
@@ -129,3 +120,14 @@
   letter-spacing: 0;
   line-height: 35.9px;
 }
+
+#nameInput::placeholder {
+  font-size: 30px;
+  text-align: justify;
+  padding-left: 10px;
+}
+
+#nameInput {
+  font-size: 30px;
+}
+

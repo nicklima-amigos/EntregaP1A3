@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
   </head>
   <body>
     <div class="content-wrapper">
@@ -13,18 +14,18 @@
       <div class="form-wrapper">
         <div class="input-frame-wrapper">
           <div class="frame-2">
-            <div class="placeholder">Digite seu Email</div>
+            <input type="text" id="emailInput" placeholder="Digite seu Email" class="placeholder"></input>
             <img class="icons-2" src="img/icons-3.svg" />
           </div>
         </div>
         <div class="input-frame-wrapper">
           <div class="frame-3">
-            <div class="placeholder-2">Digite sua Senha</div>
+            <input type="password" id="senhaInput" placeholder="Digite sua senha" class="placeholder-2"></input>
             <img class="icons-3" src="img/icons-2.svg" />
           </div>
         </div>
 
-        <div class="button">Login</div>
+        <div class="button" onclick="validarEmailSenha()">Login</div>
         <div class="frame-4">
           <div>Ainda não é cadastrado?</div>
           <div class="text-wrapper-3">Cadastre-se</div>

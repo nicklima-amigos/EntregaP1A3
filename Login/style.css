@@ -80,3 +80,15 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+#emailInput {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+#senhaInput {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
