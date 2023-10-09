@@ -8,45 +8,38 @@
 </head>
 
 <body>
-  <div class="game-plataform">
-    <div class="home-wrapper">
-      <div class="home">
-        <div class="overlap-group">
-          <div class="background-home"></div>
-          <img class="header-home" src="img/header-home.svg" />
-          <img class="img" src="img/header-home-1.svg" />
-          <div class="login">FIFA 23</div>
-          <div class="text-wrapper">God of War</div>
-          <div class="div">Need for Speed</div>
-          <div class="login-2">Assassins Creed</div>
-          <div class="login-3">GTA V</div>
-          <div class="login-4">Battlefield</div>
-          <div class="login-5">Game Platform</div>
-          <div class="login-6">PSN</div>
-          <a id="plataformButton" class="frame" href="../create">
-            <div class="text-wrapper-2">Criar Plataformas</div>
-          </a>
-          <a id="GameButton" class="div-wrapper" href="../../games/create">
-            <div class="text-wrapper-2">Criar Jogo</div>
-          </a>
-          <a id="CategoryButton" class="frame-2" href="../../categories/create">
-            <div class="text-wrapper-2">Criar Categorias</div>
-          </a>
-
-          <input class="rectangle" placeholder="Procure seu game" />
-          <img class="image-2" src="img/image-14.png" />
-          <img class="image-3" src="img/image-5.png" />
-          <img class="image-4" src="img/image-7.png" />
-          <img class="pngwing" src="img/pngwing-1.png" />
-          <img class="image-5" src="img/image-9.png" />
-          <img class="image-6" src="img/image-10.png" />
-          <img class="image-7" src="img/image-12.png" />
-          <img class="image-8" src="img/image-16.png" />
-        </div>
+  <nav>
+    <div class="title">
+      <div class="back-btn-container">
+        <button class="secondary-btn">Voltar</button>
       </div>
+      <h3>GamePlatform</h3>
+
+    </div>
+    <div class="nav-controls">
+      <button class="secondary-btn">Criar Plataforma</button>
+      <button class="secondary-btn">Criar Categoria</button>
+      <button class="secondary-btn">Criar Jogo</button>
+    </div>
+  </nav>
+
+  <div class="games-container">
+    <div class="single-game">
+      <img src="./img/assassinscreed.png" alt="">
+      <h3>Assassin's Creed</h3>
+    </div>
+    <div class="single-game">
+      <img src="./img/battlefield.png" alt="">
+      <h3>Battlefield</h3>
+    </div>
+    <div class="single-game">
+      <img src="./img/fifa23.png" alt="">
+      <h3>Fifa 23</h3>
     </div>
   </div>
+
   <script src="index.js"></script>
+  <script src="../../globals.js"></script>
 </body>
 
 </html>

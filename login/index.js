@@ -1,12 +1,12 @@
-function validateCredentials() {
-  console.log('clicked');
-  let email = document.querySelector('#email').value;
-  let password = document.querySelector('#password').value;
+function validateCredentials(event) {
+  event.preventDefault();
+  const formData = new FormData(loginForm);
+  const email = formData.get('email');
+  const password = formData.get('password');
 
-  let expectedEmail = 'teste@gmail.com';
-  let expectedPassword = '12345';
-
-  if (email == expectedEmail && password == expectedPassword) {
+  const expectedEmail = 'teste@gmail.com';
+  const expectedPassword = '12345';
+  if (email === expectedEmail && password === expectedPassword) {
     alert('Login bem sucedido!');
 
     window.location.href = '/platforms/psn';
@@ -15,5 +15,5 @@ function validateCredentials() {
   alert('Email ou senha incorretos. Tente novamente');
 }
 
-const loginButton = document.querySelector('#loginButton');
-loginButton.addEventListener('click', validateCredentials);
+const loginForm = document.querySelector('#loginForm');
+loginForm.addEventListener('submit', validateCredentials);

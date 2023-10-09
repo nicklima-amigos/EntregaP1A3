@@ -1,19 +1,129 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-* {
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+:root {
+  --orange: #c94a21;
+  --gray: #cacaca;
+  --orange-secondary: #f5d499;
+  font-family: 'Ubuntu', Helvetica;
+  padding: 0;
 }
-html,
+
 body {
-  margin: 0px;
-  height: 100%;
+  margin: 0;
 }
-/* a blue color as a generic focus style */
-button:focus-visible {
-  outline: 2px solid #4a90e2 !important;
-  outline: -webkit-focus-ring-color auto 5px !important;
+
+input {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: none;
 }
-a {
+
+.main-btn {
+  background-color: var(--orange);
+  width: 100%;
+  height: 40px;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background-color: var(--orange-secondary);
+  width: 100%;
+  height: 40px;
+  border-style: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.back-btn-container {
+  width: 100px;
+}
+
+input,
+input:focus {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: var(--gray);
+}
+
+.input-container {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+a,
+a:visited {
   text-decoration: none;
+  color: var(--orange);
 }
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:500,400");
+
+.container {
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: var(--orange);
+  color: var(--orange-secondary);
+  margin-bottom: 10rem;
+  display: flex;
+  padding-left: 2rem;
+  align-items: center;
+  font-size: 40px;
+  width: 100%;
+  height: 180px;
+}
+
+nav .title {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+nav .back-btn-container {
+  margin-right: 2rem;
+}
+
+nav .nav-controls {
+  display: flex;
+  width: 40%;
+  flex-direction: row;
+  padding-right: 5rem;
+  justify-content: space-around;
+  margin-left: auto;
+}
+
+nav .nav-controls .secondary-btn {
+  width: fit-content;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 266px;
+}
+
+.flex {
+  display: flex;
+}
+
+.col-4 {
+  width: calc(100% / 3);
+}
