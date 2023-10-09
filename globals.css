@@ -96,6 +96,19 @@ nav .back-btn-container {
   margin-right: 2rem;
 }
 
+nav .nav-controls {
+  display: flex;
+  width: 40%;
+  flex-direction: row;
+  padding-right: 5rem;
+  justify-content: space-around;
+  margin-left: auto;
+}
+
+nav .nav-controls .secondary-btn {
+  width: fit-content;
+}
+
 .logo-container {
   display: flex;
   justify-content: center;
