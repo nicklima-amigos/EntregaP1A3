@@ -79,6 +79,7 @@ nav {
   color: var(--orange-secondary);
   margin-bottom: 10rem;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 2rem;
   align-items: center;
   font-size: 40px;
@@ -94,6 +95,10 @@ nav .title {
 
 nav .back-btn-container {
   margin-right: 2rem;
+}
+
+nav .title h3 {
+  line-height: 0.5rem;
 }
 
 nav .nav-controls {
@@ -122,8 +127,25 @@ nav .nav-controls .secondary-btn {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.col-4 {
+.responsive-column {
   width: calc(100% / 3);
+}
+
+@media screen and (max-width: 900px) {
+  .responsive-column {
+    width: 100%;
+  }
+
+  nav .nav-controls {
+    width: 100%;
+    padding-right: 0;
+    justify-content: space-evenly;
+  }
+
+  nav h3 {
+    margin-left: auto;
+  }
 }
