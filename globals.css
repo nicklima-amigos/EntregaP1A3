@@ -1,9 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --orange: #c94a21;
   --gray: #cacaca;
   --orange-secondary: #f5d499;
   font-family: 'Ubuntu', Helvetica;
   padding: 0;
+}
+
+html {
+  width: 100%;
 }
 
 body {
@@ -53,7 +63,11 @@ input:focus {
 
 .input-container {
   width: 100%;
-  margin: 0 0 20px 0;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  width: 100%;
 }
 
 a,
@@ -134,7 +148,16 @@ nav .nav-controls .secondary-btn {
   width: calc(100% / 3);
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 800px) {
+  .container {
+    width: 80%;
+  }
+
+  .logo {
+    width: 60%;
+    height: auto;
+  }
+
   .responsive-column {
     width: 100%;
   }
@@ -145,7 +168,8 @@ nav .nav-controls .secondary-btn {
     justify-content: space-evenly;
   }
 
-  nav h3 {
+  nav .title h3 {
+    line-height: 1;
     margin-left: auto;
   }
 }
