@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 :root {
@@ -48,6 +47,7 @@ input {
   border-radius: 5px;
   color: black;
   cursor: pointer;
+  padding: 0 20px;
 }
 
 .back-btn-container {
@@ -91,7 +91,7 @@ a:visited {
 nav {
   background-color: var(--orange);
   color: var(--orange-secondary);
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-wrap: wrap;
   padding-left: 2rem;
@@ -120,7 +120,7 @@ nav .nav-controls {
   width: 40%;
   flex-direction: row;
   padding-right: 5rem;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-left: auto;
 }
 
@@ -148,7 +148,7 @@ nav .nav-controls .secondary-btn {
   width: calc(100% / 3);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .container {
     width: 80%;
   }
@@ -161,15 +161,24 @@ nav .nav-controls .secondary-btn {
   .responsive-column {
     width: 100%;
   }
+  nav {
+    width: 100%;
+    padding: 0 5px;
+  }
 
   nav .nav-controls {
     width: 100%;
-    padding-right: 0;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  nav .nav-controls button {
+    padding: 5px;
   }
 
   nav .title h3 {
     line-height: 1;
     margin-left: auto;
+    font-size: 24px;
   }
 }
