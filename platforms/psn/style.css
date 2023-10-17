@@ -30,12 +30,18 @@
 .card-back {
   width: 100%;
   height: 100%;
+  padding: 20px;
   position: absolute;
   backface-visibility: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+
+.card-back > div {
+  width: 300px;
+  text-align: center;
 }
 
 .card-front {
@@ -78,4 +84,8 @@
 
 #platformTitle img {
   height: 100px;
+}
+
+.grade {
+  margin-bottom: auto;
 }
