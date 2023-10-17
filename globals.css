@@ -4,15 +4,17 @@
 }
 
 :root {
-  --orange: #c94a21;
+  --orange: #cd5c08;
+  --orange-secondary: #f5e8b7;
+  --background: #c1d8c3;
+  --secondary-background: #6a9c89;
   --gray: #cacaca;
-  --orange-secondary: #f5d499;
   font-family: 'Ubuntu', Helvetica;
   padding: 0;
 }
 
 html {
-  width: 100%;
+  background-color: var(--background);
 }
 
 body {
