@@ -17,12 +17,12 @@
   width: 100%;
   height: 100%;
   position: relative;
-  transition: transform 1s;
   transform-style: preserve-3d;
   border-radius: 20px;
+  transition: transform 1s;
 }
 
-.card:hover {
+.single-game:hover .card {
   transform: rotateY(180deg);
 }
 
@@ -30,12 +30,18 @@
 .card-back {
   width: 100%;
   height: 100%;
+  padding: 20px;
   position: absolute;
   backface-visibility: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+
+.card-back > div {
+  width: 300px;
+  text-align: center;
 }
 
 .card-front {
@@ -62,4 +68,24 @@
 .card-back button {
   margin-top: 20px;
   width: 50%;
+}
+
+#platformTitle {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+#platformTitle div {
+  width: 100%;
+}
+
+#platformTitle img {
+  height: 100px;
+}
+
+.grade {
+  margin-bottom: auto;
 }
