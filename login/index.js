@@ -8,10 +8,14 @@ function validateCredentials(event) {
   const expectedPassword = '12345';
   if (email === expectedEmail && password === expectedPassword) {
     alert('Login bem sucedido!');
-
     window.location.href = '/platforms/psn';
     return;
+
+  } else if (!email || !password){
+    alert('Preencha todos os campos.');
+    return;
   }
+
   alert('Email ou senha incorretos. Tente novamente');
 }
 
