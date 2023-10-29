@@ -29,7 +29,6 @@
 .card-front,
 .card-back {
   height: 80%;
-  padding: 20px;
   position: absolute;
   backface-visibility: hidden;
   display: flex;
@@ -44,8 +43,14 @@
   text-align: center;
 }
 
+.card-back p {
+  margin-top: 50px;
+  text-align: center;
+}
+
 .card-front {
   width: 90%;
+  padding: 20px;
   height: 80%;
   justify-content: center;
   z-index: 1;
