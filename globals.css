@@ -9,7 +9,7 @@
   --background: #9c9c9c;
   --secondary-background: #cd5c08;
   --gray: #cacaca;
-  font-family: 'Ubuntu', Helvetica;
+  font-family: "Ubuntu", Helvetica;
   padding: 0;
 }
 
@@ -58,8 +58,6 @@ input {
 
 input,
 input:focus {
-  width: calc(100% - 20px);
-  padding: 10px;
   background-color: var(--gray);
 }
 
@@ -69,15 +67,9 @@ input:focus {
 }
 
 .input-container input {
-  width: 100%;
+  width: calc(100% - 20px);
+  padding: 10px;
 }
-
-a,
-a:visited {
-  text-decoration: none;
-  color: var(--orange);
-}
-
 .container {
   width: 400px;
   justify-content: center;
@@ -88,6 +80,12 @@ a:visited {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: var(--orange);
 }
 
 nav {
