@@ -19,7 +19,7 @@
   transform-style: preserve-3d;
   border-radius: 20px;
   transition: transform 1s;
-  box-shadow: 0 3px 10px black;
+  box-shadow: 0 3px 10px var(--orange-secondary);
 }
 
 .single-game:hover .card {
@@ -54,6 +54,7 @@
   height: 80%;
   justify-content: center;
   z-index: 1;
+  color: var(--orange-secondary);
 }
 
 .image-container {
@@ -66,7 +67,7 @@
 .card-back {
   height: 400px;
   width: 100%;
-  color: black;
+  color: var(--orange-secondary);
   background-color: var(--background);
   transform: rotateY(180deg);
   z-index: 2;
@@ -98,6 +99,7 @@
   width: 100%;
   justify-content: center;
   text-align: center;
+  color: var(--orange-secondary);
 }
 
 #platformTitle div {
@@ -106,6 +108,8 @@
 
 #platformTitle img {
   height: 100px;
+  filter: brightness(10);
+  
 }
 
 .grade {
