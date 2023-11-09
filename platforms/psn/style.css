@@ -43,6 +43,36 @@
   text-align: center;
 }
 
+.card-back .pill {
+  color: black;
+  padding: 5px 10px;
+  border-radius: 16px;
+  margin: 1rem;
+}
+
+.pill.playing {
+  background-color: rgb(55, 255, 55);
+  box-shadow: rgb(55, 255, 55) 0 0 10px;
+}
+
+.pill.not-worth {
+  background-color: rgb(255, 55, 55);
+  box-shadow: rgb(255, 55, 55) 0 0 10px;
+}
+
+.pill.completed {
+  background-color: rgb(55, 125, 255);
+  box-shadow: rgb(55, 125, 255) 0 0 10px;
+}
+.pill.adventure {
+  background-color: rgb(255, 175, 55);
+  box-shadow: rgb(255, 175, 55) 0 0 10px;
+}
+.pill.recommends {
+  background-color: rgb(255, 252, 55);
+  box-shadow: rgb(255, 252, 55) 0 0 10px;
+}
+
 .card-back p {
   margin-top: 50px;
   text-align: center;
@@ -72,7 +102,6 @@
   transform: rotateY(180deg);
   z-index: 2;
 }
-
 
 @media screen and (max-width: 900px) {
   .single-game {
@@ -109,7 +138,6 @@
 #platformTitle img {
   height: 100px;
   filter: brightness(10);
-  
 }
 
 .grade {
